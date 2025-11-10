@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #88c7ff;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+canvas {
+  background: linear-gradient(#90d4ff, #66b7ff);
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.ui {
+  position: fixed;
+  left: 16px;
+  top: 16px;
+  color: #05324a;
+  font-weight: 700;
+}
+
+.hint {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 48%;
+  text-align: center;
+  color: #024055;
+  pointer-events: none;
+}
